@@ -1,0 +1,11 @@
+{
+	"nodes":[
+		{"id":"910194da9c599b55","x":-160,"y":-100,"width":250,"height":150,"color":"1","type":"text","text":"Команды приоритета\n- Emergency surfacing\n- Stop"},
+		{"id":"d8378653f62cc1ab","x":-560,"y":-90,"width":250,"height":130,"color":"4","type":"text","text":"Автопилот"},
+		{"id":"e9a75db06cf5c9a7","x":240,"y":-55,"width":250,"height":60,"color":"2","type":"text","text":"Сервис"}
+	],
+	"edges":[
+		{"id":"ebbd1955e914828c","fromNode":"d8378653f62cc1ab","fromSide":"right","toNode":"910194da9c599b55","toSide":"left"},
+		{"id":"3f27b8598dfce91a","fromNode":"910194da9c599b55","fromSide":"right","toNode":"e9a75db06cf5c9a7","toSide":"left"}
+	]
+}
