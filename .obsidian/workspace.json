@@ -1,0 +1,158 @@
+{
+  "main": {
+    "id": "d5c844b6aba23a27",
+    "type": "split",
+    "children": [
+      {
+        "id": "37eef1549844c060",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b0b2c9936100b3c0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Включение и отключение графической оболочки.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "0777d990ca9fe60a",
+    "type": "split",
+    "children": [
+      {
+        "id": "ca51f6b9453be922",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c77d17cf8f55a6ed",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "35c4856263e37731",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "0532097b77c50502",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 501.5
+  },
+  "right": {
+    "id": "2ad6369f0eac71bc",
+    "type": "split",
+    "children": [
+      {
+        "id": "7761afa8f5509487",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "e26ebf2a1f3f4b1b",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Включение и отключение графической оболочки.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "14a2de0bb5b73693",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Включение и отключение графической оболочки.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "4a9bf155115f4d07",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "da6fdab578ec8162",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Включение и отключение графической оболочки.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "b0b2c9936100b3c0",
+  "lastOpenFiles": [
+    "Получение навигации из топика ROS2.md",
+    "STM32 Включение и отключение устройства на цифровом пине.md",
+    "LinuxAdministration.md",
+    "Права доступа на сериал порт в Разбери даже после перезагрузки.md",
+    "Priority command.canvas",
+    "Untitled.canvas"
+  ]
+}
