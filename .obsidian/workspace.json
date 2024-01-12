@@ -4,43 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "b2dbcb491017f750",
+        "id": "9e5adca52ddbbebf",
         "type": "tabs",
         "children": [
           {
-            "id": "21eca20884f3d733",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Робототехника.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "243c9108ed11e77e",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "LinuxAdministration.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "c7fe39cf6b640e36",
+            "id": "4fbf8d3969f6e0d4",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -90,7 +65,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 501.5
+    "width": 438.5
   },
   "right": {
     "id": "2ad6369f0eac71bc",
@@ -163,22 +138,28 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "c7fe39cf6b640e36",
+  "active": "4fbf8d3969f6e0d4",
   "lastOpenFiles": [
-    "Vim лучший текстовый редактор.md",
-    "LinuxAdministration.md",
-    "Linux.md",
     "Права доступа на сериал порт в Разбери даже после перезагрузки.md",
+    "Одноплатные компьютеры.md",
+    "Raspberry Pi.md",
+    "Ошибки PX4 автопилота и как их решать.md",
+    "PX4 Автопилот.md",
+    "MAVROS.md",
+    "Список известных параметров PX4 автопилота.md",
+    "Беспилотный летательный аппарат.md",
+    "Робототехника.md",
+    "LinuxAdministration.md",
     "Получение навигации из топика ROS2.md",
     "Включение и отключение графической оболочки.md",
-    "STM32.md",
-    "STM32 Включение и отключение устройства на цифровом пине.md",
-    "QT5.md",
-    "Робототехника.md",
+    "Vim лучший текстовый редактор.md",
     "ROS2.md",
-    "Obsidian.md",
-    "MAVROS.md",
     "Markdown.md",
+    "Obsidian.md",
+    "STM32 Включение и отключение устройства на цифровом пине.md",
+    "Linux.md",
+    "STM32.md",
+    "QT5.md",
     "yandex.ru.md",
     "picturies",
     "picturies/Screenshot from 2023-12-26 21-16-45.png",
