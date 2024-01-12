@@ -10,3 +10,5 @@ auto sensor_qos = rclcpp::QoS(rclcpp::SensorDataQoS());
 // Subscribers
 local_pose_sub = node->create_subscription<geometry_msgs::msg::PoseStamped>("/uav_1/local_position/pose", sensor_qos, std::bind(&PositionalRegulator::LocalPoseCb, this, std::placeholders::_1));
 ```
+
+[[MAVROS]]
