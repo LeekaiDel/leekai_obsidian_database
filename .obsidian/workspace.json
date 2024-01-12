@@ -4,18 +4,43 @@
     "type": "split",
     "children": [
       {
-        "id": "e88ef938d4291a93",
+        "id": "b2dbcb491017f750",
         "type": "tabs",
         "children": [
           {
-            "id": "35c883046b3bb325",
+            "id": "21eca20884f3d733",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Робототехника.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "243c9108ed11e77e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LinuxAdministration.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c7fe39cf6b640e36",
             "type": "leaf",
             "state": {
               "type": "graph",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -138,23 +163,26 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "35c883046b3bb325",
+  "active": "c7fe39cf6b640e36",
   "lastOpenFiles": [
+    "Vim лучший текстовый редактор.md",
     "LinuxAdministration.md",
-    "ROS2.md",
-    "MAVROS.md",
+    "Linux.md",
+    "Права доступа на сериал порт в Разбери даже после перезагрузки.md",
     "Получение навигации из топика ROS2.md",
-    "STM32 Включение и отключение устройства на цифровом пине.md",
-    "STM32.md",
-    "Робототехника.md",
     "Включение и отключение графической оболочки.md",
+    "STM32.md",
+    "STM32 Включение и отключение устройства на цифровом пине.md",
+    "QT5.md",
+    "Робототехника.md",
+    "ROS2.md",
+    "Obsidian.md",
+    "MAVROS.md",
     "Markdown.md",
     "yandex.ru.md",
-    "Obsidian.md",
     "picturies",
     "picturies/Screenshot from 2023-12-26 21-16-45.png",
     "Хуйня QT5.md",
-    "Права доступа на сериал порт в Разбери даже после перезагрузки.md",
     "Priority command.canvas",
     "Untitled.canvas"
   ]
