@@ -4,28 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "7b5b24e4ea0b9ed3",
+        "id": "2a9bacf3380082c6",
         "type": "tabs",
         "children": [
           {
-            "id": "40631df292392c95",
+            "id": "5a51f70f9d2f1e28",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Markdown.md",
+                "file": "Отладочные строки Gstreamer.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "178e1baad825b847",
+            "id": "94101cf0628f2804",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Vim лучший текстовый редактор.md",
+                "file": "wfb-ng.md",
                 "mode": "source",
                 "source": false
               }
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Vim лучший текстовый редактор.md",
+                "file": "wfb-ng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Vim лучший текстовый редактор.md",
+                "file": "wfb-ng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Vim лучший текстовый редактор.md"
+                "file": "wfb-ng.md"
               }
             }
           }
@@ -160,34 +160,35 @@
       "command-palette:Открыть палитру команд": false
     }
   },
-  "active": "178e1baad825b847",
+  "active": "94101cf0628f2804",
   "lastOpenFiles": [
-    "Markdown.md",
+    "Отладочные строки Gstreamer.md",
+    "wfb-ng.md",
+    "Проблемы и решение GStreamer.md",
     "Vim лучший текстовый редактор.md",
-    "Obsidian.md",
-    "Админнистрирование над пользователем.md",
-    "Linux Administration.md",
+    "Markdown.md",
+    "Включение и отключение графической оболочки.md",
     "Библиотека QWT.md",
-    "Qt5.md",
+    "Беспилотный летательный аппарат.md",
+    "Админнистрирование над пользователем.md",
+    "STM32 Включение и отключение устройства на цифровом пине.md",
+    "GStreamer.md",
+    "Получение навигации из топика ROS2.md",
     "Ошибки PX4 автопилота и как их решать.md",
-    "It's me.md",
+    "Без названия.canvas",
+    "iperf.md",
+    "C++.md",
     "Linux.md",
+    "OpenCV.md",
+    "Python.md",
+    "Программирование.md",
+    "Obsidian.md",
+    "Linux Administration.md",
+    "Qt5.md",
+    "It's me.md",
     "ROS2.md",
     "STM32.md",
     "Одноплатные компьютеры.md",
-    "Робототехника.md",
-    "Программирование.md",
-    "CMake.md",
-    "C++.md",
-    "Arch Linux.md",
-    "Включение и отключение графической оболочки.md",
-    "Pacman пакетный менеджер.md",
-    "Список известных параметров PX4 автопилота.md",
-    "Права доступа на сериал порт в Разбери даже после перезагрузки.md",
-    "Raspberry Pi.md",
-    "PX4 Автопилот.md",
-    "MAVROS.md",
-    "Беспилотный летательный аппарат.md",
     "picturies",
     "picturies/Screenshot from 2023-12-26 21-16-45.png",
     "Priority command.canvas",
