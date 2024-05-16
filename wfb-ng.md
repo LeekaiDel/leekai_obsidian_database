@@ -132,3 +132,52 @@ gst-launch-1.0 videotestsrc ! video/x-raw, width=640, height=480 !  x264enc pass
 ```bash
 gst-launch-1.0 -v udpsrc port=5600 caps='application/x-rtp, media=(string)video, clock-rate=(int)90000, encoding-name=(string)H264' ! rtph264depay ! avdec_h264 ! videoconvert ! autovideosink
 ```
+
+### SSH соединение:
+
+После успешного подключения можно присоединиться к дрону через `ssh` из станции. Например для пользователя `firefly` с паролем `firefly` (IP дрона: `10.5.0.2`, IP станции: `10.5.0.1`):
+```bash
+ssh -C firefly@10.5.0.2
+```
+
+
+### Простая прием-передача через сокеты:
+
+#### server.py
+```python
+# echo-server.py
+import socket
+
+
+HOST = "10.5.0.2" # Standard loopback interface address (localhost)
+PORT = 65432 # Port to listen on (non-privileged ports are > 1023)
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+	s.bind((HOST, PORT))
+	s.listen()
+	conn, addr = s.accept()
+	with conn:
+		print(f"Connected by {addr}")
+		while True:
+			data = conn.recv(1024)
+			if not data:
+				break
+			conn.sendall(data)
+```
+
+#### client.py
+
+```python
+# echo-client.py
+import socket
+
+HOST = "10.5.0.2" # The server's hostname or IP address
+PORT = 65432 # The port used by the server
+
+with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+	s.connect((HOST, PORT))
+	s.sendall(b"Hello, world")
+	data = s.recv(1024)
+
+print(f"Received {data!r}")
+```
