@@ -3,3 +3,4 @@
 [[GPIO HAL]]
 [[I2C HAL]]
 [[USART HAL]]
+[[C]]
